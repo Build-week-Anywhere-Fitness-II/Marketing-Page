@@ -153,3 +153,37 @@ header {
    width: 25rem;
    padding-left: 3rem;
 }
+
+#top {
+   height: 88vh;
+   width: 100vw;
+}
+
+#steve-halama {
+   height: 88vh;
+   width: 100vw;
+   background-size: cover;
+   background-position: center;
+}
+
+#topTextLeft {
+   height: 20rem;
+   width: 35vw;
+   position: absolute;
+   top: 29rem;
+   left: 8rem;
+   color: #1e222e;
+   font-weight: bold;
+   font-size: 1.5rem;
+}
+
+#missionStatement {
+   height: 20rem;
+   width: 50vw;
+   position: absolute;
+   top: 13rem;
+   right: 2rem;
+   color: #1e222e;
+   /* font-weight: bold; */
+   font-size: 5rem;
+}
