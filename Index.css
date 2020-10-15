@@ -223,14 +223,46 @@ header {
    width: 18vw;
    border: 0.5rem solid #1e222e;
    border-radius: 2rem;
-   margin: 3.5rem 0 0 0;
+   margin: 3.5rem 0 0 -3rem;
 }
 
 #jonathan-borba:hover {
    height: 23vh;
    width: 20vw;
    padding: 0;
-   /* /* box-shadow: 0.75rem 0.75rem #585e6a; */
+   margin: 3.5rem 0 0 -5rem;
+   transition: 0.5s;
+}
+
+#ryan-de-hamer {
+   height: 20vh;
+   width: 18vw;
+   border: 0.5rem solid #1e222e;
+   border-radius: 2rem;
+   margin: 6.5rem 0 0 -3rem;
+}
+
+#ryan-de-hamer:hover {
+   height: 23vh;
+   width: 20vw;
+   padding: 0;
+   margin: 6.5rem 0 0 -5rem;
+   transition: 0.5s;
+}
+
+#mika {
+   height: 20vh;
+   width: 18vw;
+   border: 0.5rem solid #1e222e;
+   border-radius: 2rem;
+   margin: 3.5rem 0 0 -3rem;
+}
+
+#mika:hover {
+   height: 23vh;
+   width: 20vw;
+   padding: 0;
+   margin: 3.5rem 0 0 -5rem;
    transition: 0.5s;
 }
 
