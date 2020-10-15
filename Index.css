@@ -128,6 +128,8 @@ h6 {
    font-family: "Sriracha", cursive;
 }
 
+/* Top Section */
+
 nav {
    padding-top: 5.5rem;
 }
@@ -184,6 +186,57 @@ header {
    top: 13rem;
    right: 2rem;
    color: #1e222e;
-   /* font-weight: bold; */
    font-size: 5rem;
+}
+
+/* End Top */
+
+/* Mid Section */
+
+#midContainer {
+   height: 100vh;
+   width: 100vw;
+   background: rgb(30, 34, 46);
+   background: linear-gradient(
+      180deg,
+      rgba(30, 34, 46, 1) 7%,
+      rgba(228, 117, 110, 1) 45%,
+      rgba(30, 34, 46, 1) 82%
+   );
+   text-align: center;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.descriptor {
+   height: 45vh;
+   width: 20vw;
+   margin-bottom: 15rem;
+   background-color: #1e222e;
+   border-radius: 2rem;
+}
+
+#jonathan-borba {
+   height: 20vh;
+   width: 18vw;
+   border: 0.5rem solid #1e222e;
+   border-radius: 2rem;
+   margin: 3.5rem 0 0 0;
+}
+
+#jonathan-borba:hover {
+   height: 23vh;
+   width: 20vw;
+   padding: 0;
+   /* /* box-shadow: 0.75rem 0.75rem #585e6a; */
+   transition: 0.5s;
+}
+
+p {
+   margin: 4rem 3rem;
+   color: #e34647;
+   font-size: 2rem;
+   text-align: justify;
 }
