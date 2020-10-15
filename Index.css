@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&family=Ubuntu+Condensed&display=swap");
+
 html,
 body,
 div,
@@ -79,12 +81,12 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
 }
 
 /* HTML5 display-role reset */
@@ -99,13 +101,55 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+   display: block;
 }
 
 * {
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+   font-size: 62.5%;
+}
+
+body {
+   background: #e4756e;
+   font-size: 1.6rem;
+   line-height: 1.5;
+   font-family: "Ubuntu Condensed", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Sriracha", cursive;
+}
+
+nav {
+   padding-top: 5.5rem;
+}
+
+a {
+   text-decoration: none;
+   letter-spacing: 0.3rem;
+   color: #e34647;
+   margin: 5rem;
+}
+
+header {
+   height: 12vh;
+   width: 100vw;
+   padding: 2rem;
+   background-color: #1e222e;
+   display: flex;
+   flex-flow: row;
+   justify-content: space-between;
+}
+#logo {
+   height: 8rem;
+   width: 25rem;
+   padding-left: 3rem;
 }
