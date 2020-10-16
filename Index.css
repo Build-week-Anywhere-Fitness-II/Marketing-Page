@@ -153,9 +153,14 @@ header a:hover {
    color: #ffdd45;
 }
 
+header a:visited {
+   color: #FC8B2F;
+}
+
 header {
    height: 12vh;
    width: 100vw;
+   font-size: 2rem;
    padding: 2rem;
    background-color: #1e222e;
    display: flex;
@@ -265,14 +270,14 @@ header {
    width: 90%;
    border: 0.5rem solid #1e222e;
    border-radius: 2rem;
-   margin: 6.5rem 0 0 -3rem;
+   margin: 7rem 0 0 -3rem;
 }
 
 #ryan-de-hamer:hover {
    height: 25vh;
    width: 100%;
    padding: 0;
-   margin: 6.5rem 0 0 -5rem;
+   margin: 7rem 0 0 -5rem;
    transition: 0.5s;
 }
 
@@ -281,14 +286,14 @@ header {
    width: 90%;
    border: 0.5rem solid #1e222e;
    border-radius: 2rem;
-   margin: 0.25rem 0 0 -3.25rem;
+   margin: 1.25rem 0 0 -3.25rem;
 }
 
 #mika:hover {
    height: 25vh;
    width: 100%;
    padding: 0;
-   margin: 0.5rem 0 0 -5rem;
+   margin: 1.25rem 0 0 -5rem;
    transition: 0.5s;
 }
 
@@ -573,6 +578,10 @@ background: linear-gradient(56deg, rgba(30,34,46,1) 17%, rgba(228,117,110,1) 50%
    overflow: hidden;
 }
 
+.topImg a {
+   margin: auto;
+}
+
 .topInfo {
    width: 90%;
    height: 98%;
@@ -619,6 +628,10 @@ background: linear-gradient(56deg, rgba(30,34,46,1) 17%, rgba(228,117,110,1) 50%
    border: 2px solid #1E222E;
    border-radius: 50%;
    overflow: hidden;
+}
+
+.bottomImg a {
+   margin: auto;
 }
 
 .bottomInfo {
