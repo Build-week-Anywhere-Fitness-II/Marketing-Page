@@ -164,7 +164,7 @@ header {
 #steve-halama {
    height: 88vh;
    width: 100vw;
-   background-size: cover;
+   object-fit: cover;
    background-position: center;
 }
 
@@ -195,6 +195,17 @@ header {
 /* End Top */
 
 /* Mid Section */
+
+#spacer {
+   height: 7vh;
+   background-color: #1E222E;
+}
+
+#midText {
+   height: 5vh;
+   font-size: 3rem;
+   text-align: center;
+}
 
 #midContainer {
    height: 100vh;
