@@ -180,7 +180,7 @@ header {
 }
 
 #topTextLeft {
-   width: 35vw;
+   width: 35%;
    background-color: hsl(240deg 9% 79% / 26%);
    position: absolute;
    top: 31rem;
@@ -194,8 +194,7 @@ header {
 }
 
 #missionStatement {
-   height: 20rem;
-   width: 50vw;
+   width: 50%;
    position: absolute;
    top: 13rem;
    right: 2rem;
@@ -315,6 +314,8 @@ p {
 #sven-mieke {
    height: 75vh;
    width: 100vw;
+   object-fit: cover;
+   background-position: center;
 }
 
 footer {
@@ -338,6 +339,55 @@ i:hover {
 
 .fa fa-instagram {
    color: #e4756e;
+}
+
+/* MP Media Queries */
+
+@media (max-width: 1024px) {
+
+   #missionStatement {
+      width: 55%;
+      font-size: 2.75rem;
+   }
+
+#topTextLeft {
+   top: 12rem;
+   left: 2rem;
+   font-size: 1.75rem;
+}
+
+#midText {
+   padding: 0.75%;
+   font-size: 1.75rem;
+}
+
+.descriptor {
+   height: 45%;
+}
+
+p {
+   font-size: 1.5rem;
+   text-align: center;
+   margin: 15%;
+}
+
+#jonathan-borba {
+   margin: .5rem 0 0 -4rem;
+}
+
+#ryan-de-hamer {
+   margin: 5rem 0 0 -4rem;
+}
+
+#mika {
+   margin: 0.5rem 0 0 -4rem;
+}
+
+#bottomText {
+   padding:.75%;
+   font-size: 1.75rem;
+}
+
 }
 
 /* End Marketing Page */
@@ -383,7 +433,7 @@ background: linear-gradient(56deg, rgba(30,34,46,1) 17%, rgba(228,117,110,1) 50%
    width: 10.75%;
    height: 98%;
    border: 2px solid #1E222E;
-   border-radius: 7rem;
+   border-radius: 50%;
    overflow: hidden;
 }
 
@@ -431,7 +481,7 @@ background: linear-gradient(56deg, rgba(30,34,46,1) 17%, rgba(228,117,110,1) 50%
    width: 10.75%;
    height: 98%;
    border: 2px solid #1E222E;
-   border-radius: 7rem;
+   border-radius: 50%;
    overflow: hidden;
 }
 
