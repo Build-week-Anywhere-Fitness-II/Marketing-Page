@@ -129,9 +129,10 @@ h6 {
 }
 
 /* Contents */
-/* Marketing Page ... 136 - 343 */
-/* About Us Page ... 345 - 464 */
-/* Media Queries ... */
+/* Marketing Page ... 136 - 528 */
+/* About Us Page ... 530 - 660 */
+/* Media Queries ... (MP) 345 - 526 */
+/* Media Queries ... (AU)  */
 
 /* Start Marketing Page */
 
@@ -161,6 +162,7 @@ header {
    flex-flow: row;
    justify-content: space-between;
 }
+
 #logo {
    height: 8rem;
    width: 25rem;
@@ -194,7 +196,7 @@ header {
 }
 
 #missionStatement {
-   width: 50%;
+   width: 53%;
    position: absolute;
    top: 13rem;
    right: 2rem;
@@ -312,8 +314,8 @@ p {
 }
 
 #sven-mieke {
-   height: 75vh;
-   width: 100vw;
+   height: 50%;
+   width: 100%;
    object-fit: cover;
    background-position: center;
 }
@@ -343,6 +345,8 @@ i:hover {
 
 /* MP Media Queries */
 
+/* 1024 */
+
 @media (max-width: 1024px) {
 
    #missionStatement {
@@ -350,45 +354,54 @@ i:hover {
       font-size: 2.75rem;
    }
 
-#topTextLeft {
-   top: 12rem;
-   left: 2rem;
-   font-size: 1.75rem;
+   #topTextLeft {
+      top: 12rem;
+      left: 2rem;
+      font-size: 1.75rem;
+   }
+
+   #midText {
+      padding: 1% 0.25%;
+      font-size: 1.5rem;
+   }
+
+   .descriptor {
+      height: 45%;
+   }
+
+   p {
+      font-size: 1.5rem;
+      text-align: center;
+      margin: 15%;
+   }
+
+   #jonathan-borba {
+      margin: .5rem 0 0 -4rem;
+   }
+
+   #ryan-de-hamer {
+      margin: 5rem 0 0 -4rem;
+   }
+
+   #mika {
+      margin: 0.5rem 0 0 -4rem;
+   }
+
+   #bottomText {
+      padding: 1%;
+      font-size: 1.5rem;
+   }
+
+   #sven-mieke {
+      height: 50%;
+      width: 100%;
+      object-fit: cover;
+      background-position: center;
+   }
+
 }
 
-#midText {
-   padding: 0.75%;
-   font-size: 1.75rem;
-}
-
-.descriptor {
-   height: 45%;
-}
-
-p {
-   font-size: 1.5rem;
-   text-align: center;
-   margin: 15%;
-}
-
-#jonathan-borba {
-   margin: .5rem 0 0 -4rem;
-}
-
-#ryan-de-hamer {
-   margin: 5rem 0 0 -4rem;
-}
-
-#mika {
-   margin: 0.5rem 0 0 -4rem;
-}
-
-#bottomText {
-   padding:.75%;
-   font-size: 1.75rem;
-}
-
-}
+/* 800 */
 
 @media (max-width: 800px) {
 
@@ -400,8 +413,8 @@ p {
    }
 
    #missionStatement {
-      width: 60%;
-      font-size: 2.5rem;
+      width: 55%;
+      font-size: 2.25rem;
    }
 
    #midText {
@@ -430,6 +443,85 @@ p {
    #bottomText {
       padding:0 23%;
       font-size: 1.5rem;
+   }
+
+   #sven-mieke {
+      height: 50%;;
+      width: 100vw;
+      object-fit: cover;
+      background-position: center;
+   }
+
+}
+
+/* 500 */
+
+@media (max-width: 500px) {
+
+   header {
+      padding-left: 1%;
+   }
+
+   #logo {
+      width: 41%;
+      height: auto;
+   }
+
+   header nav {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-evenly;
+      padding: 0;
+      margin: 0;
+   }
+
+   header nav a {
+      padding: 0;
+      margin: 0;
+   }
+
+   #container {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+
+   #topTextLeft {
+      width: 100%;
+      font-size: 1.55rem;
+      top: 66.5%;
+      left: 0%;
+      background-color: hsl(240deg 9% 79% / 60%);
+   }
+
+   #missionStatement {
+      width: 100%;
+      font-size: 2.5rem;
+      position: absolute;
+      top: 13%;
+      left: 1%;
+   }
+
+   #midText {
+      padding: 0 7%;;
+   }
+
+   .descriptor {
+      width: 30%;
+   }
+
+   #mika {
+      margin: 3rem 0 0 -4.25rem;
+   }
+
+   #sven-mieke {
+      height: 50%;
+      width: 100vw;
+      object-fit: cover;
+      background-position: center;
+   }
+
+   #bottomText {
+      padding: 0 7%;
    }
 
 }
