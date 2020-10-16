@@ -275,3 +275,41 @@ p {
    font-size: 2rem;
    text-align: justify;
 }
+
+/* End Mid */
+
+/* Bottom Section */
+
+#bottom {
+   width: 100vw;
+}
+
+#bottomText {
+   height: 5vh;
+   font-size: 3rem;
+   text-align: center;
+}
+
+#sven-mieke {
+   height: 75vh;
+   width: 100vw;
+}
+
+footer {
+   height: 10vh;
+   padding: 2.25rem;
+   text-align: center;
+   background-color: #1e222e;
+}
+
+.fa fa-facebook-square {
+   color: #e4756e;
+}
+
+.fa fa-twitter-square {
+   color: #e4756e;
+}
+
+.fa fa-instagram {
+   color: #e4756e;
+}
