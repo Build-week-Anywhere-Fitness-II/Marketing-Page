@@ -141,6 +141,10 @@ a {
    margin: 5rem;
 }
 
+header a:hover {
+   color: #ffdd45;
+}
+
 header {
    height: 12vh;
    width: 100vw;
@@ -198,7 +202,7 @@ header {
 
 #spacer {
    height: 7vh;
-   background-color: #1E222E;
+   background-color: #1e222e;
 }
 
 #midText {
@@ -311,6 +315,10 @@ footer {
    padding: 2.25rem;
    text-align: center;
    background-color: #1e222e;
+}
+
+i:hover {
+   color: white;
 }
 
 .fa fa-facebook-square {
