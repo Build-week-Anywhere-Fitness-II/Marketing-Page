@@ -130,9 +130,9 @@ h6 {
 
 /* Contents */
 /* Marketing Page ... 136 - 557 */
-/* About Us Page ... 558 - 697 */
+/* About Us Page ... 558 - 849 */
 /* Media Queries ... (MP) 361 - 555 */
-/* Media Queries ... (AU)  */
+/* Media Queries ... (AU)  697 - 847 */
 
 /* Start Marketing Page */
 
@@ -711,6 +711,7 @@ img {
 
    .bottomHalf {
       width: 85%;
+      padding-right: 1%;
    }
 
    .topImg {
@@ -738,6 +739,110 @@ img {
    .bottomTitle {
       width: 30%;
       margin: 1% 1% 1% 69%;
+   }
+
+}
+
+/* 800 */
+
+@media (max-width: 800px) {
+
+   .topHalf {
+      width: 75%;
+   }
+
+   .bottomHalf {
+      width: 75%;
+      margin: 0.75% 0.75% 0.75% 24.25%;
+   }
+
+   .topImg {
+      width: 25%;
+   }
+
+   .topInfo {
+      width: 85%;
+      margin: 0 5%;
+   }
+   
+   .topTitle {
+      width: 55%;
+   }
+
+   .topBio {
+      font-size: 1.75rem;
+   }
+
+   .bottomImg {
+      width: 25%;
+   }
+   
+   .bottomInfo {
+      width: 85%;
+      margin: 0 5%;
+   }
+   
+   .bottomTitle {
+      width: 55%;
+      margin: 1% 1% 1% 39%;
+   }
+
+   .bottomBio {
+      font-size: 1.75rem;
+   }
+
+}
+
+/* 500 */
+
+@media (max-width: 500px) {
+
+   .topHalf {
+      width: 95%;
+   }
+
+   .bottomHalf {
+      width: 95%;
+      margin: 0.75% 0.75% 0.75% 0.75%;
+   }
+
+   .topImg {
+      width: 40%;
+   }
+
+   .topInfo {
+      width: 85%;
+      margin: 0 5%;
+      font-size: 1.25rem;
+   }
+   
+   .topTitle {
+      width: 60%;
+      padding-top: 1.5%;
+   }
+
+   .topBio {
+      font-size: 1.25rem;
+   }
+
+   .bottomImg {
+      width: 40%;
+   }
+   
+   .bottomInfo {
+      width: 85%;
+      margin: 0 5%;
+      font-size: 1.25rem;
+   }
+   
+   .bottomTitle {
+      width: 60%;
+      margin: 1% 1% 1% 39%;
+      padding-top: 1.5%;
+   }
+
+   .bottomBio {
+      font-size: 1.25rem;
    }
 
 }
