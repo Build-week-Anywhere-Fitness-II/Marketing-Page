@@ -130,9 +130,9 @@ h6 {
 
 /* Contents */
 /* Marketing Page ... 136 - 557 */
-/* About Us Page ... 558 - 849 */
+/* About Us Page ... 558 - 878 */
 /* Media Queries ... (MP) 361 - 555 */
-/* Media Queries ... (AU)  697 - 847 */
+/* Media Queries ... (AU)  697 - 876 */
 
 /* Start Marketing Page */
 
@@ -552,6 +552,49 @@ i:hover {
       padding: 0 7%;
    }
 
+   #topTextLeft {
+      top: 58.5%; 
+
+
+   }
+}
+
+/* 414 */
+
+@media (max-width: 414px) {
+
+#missionStatement {
+   font-size: 2rem;
+   margin-left: 2%;
+}
+
+#spacer {
+   padding: 7%;
+}
+
+#midText {
+   height: 10%;
+}
+
+p {
+   font-size: 1.25rem;
+}
+
+#ryan-de-hamer {
+   margin: 6.55rem 0 0 -4.25rem;
+}
+
+#bottomText {
+   height: 10%;
+}
+
+#midContainer {
+   height: 145vh;
+}
+
+.descriptor{
+   height: 31%;
+
 }
 
 /* End Marketing Page */
@@ -843,6 +886,34 @@ img {
 
    .bottomBio {
       font-size: 1.25rem;
+   }
+
+}
+
+/* 414 */
+
+@media (max-width: 414px) {
+
+   #meet {
+      font-size: 2rem;
+      padding: 0 15%;
+   }
+      
+   .topTitle {
+      width: 70%;
+   }
+
+   .bottomTitle {
+      width: 70%;
+      margin: 1% 1% 1% 29%;
+   }
+
+   .topBio {
+      height: 70%;
+   }
+
+   .bottomBio {
+      height: 70%;
    }
 
 }
