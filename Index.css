@@ -559,7 +559,7 @@ i:hover {
    }
 }
 
-/* 414 */
+/* iPhone 6/7/8 Plus */
 
 @media (max-width: 414px) {
 
@@ -580,8 +580,16 @@ p {
    font-size: 1.25rem;
 }
 
+#jonathan-borba {
+   margin: .5rem 0 0 -4.25rem;
+}
+
 #ryan-de-hamer {
-   margin: 6.55rem 0 0 -4.25rem;
+   margin: 6rem 0 0 -4.25rem;
+}
+
+#mika {
+   margin: 2.35rem 0 0 -4.25rem;
 }
 
 #bottomText {
@@ -589,11 +597,22 @@ p {
 }
 
 #midContainer {
-   height: 145vh;
+   height: 125vh;
 }
 
 .descriptor{
-   height: 31%;
+   height: 35%;
+   margin-bottom: 35rem;
+
+}
+
+footer {
+   padding: 2.25% 0;
+}
+
+footer a{
+   margin: 4rem;
+}
 
 }
 
