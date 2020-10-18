@@ -129,10 +129,10 @@ h6 {
 }
 
 /* Contents */
-/* Marketing Page ... 138 - 636 */
-/* About Us Page ... 638 - 958 */
-/* Media Queries ... (MP) 785 - 634 */
-/* Media Queries ... (AU)  698 - 956 */
+/* Marketing Page ... 138 - 650 */
+/* About Us Page ... 652 - 1013 */
+/* Media Queries ... (MP) 367 - 648 */
+/* Media Queries ... (AU)  798 - 1011 */
 /* Colors Used ... #1E222E (background, font) ... #E4756E (background) ... #E34647 (font) */
 
 /* Start Marketing Page */
@@ -170,7 +170,6 @@ header {
 }
 
 .anywhere-fitness {
-   /* border: 1px solid white; */
    width: 10%;
    height: 100%;
 }
@@ -251,7 +250,6 @@ header {
 .descriptor {
    height: 47vh;
    width: 18vw;
-   margin-bottom: 10rem;
    background-color: #1e222e;
    border-radius: 2rem;
    display: flex;
@@ -263,7 +261,6 @@ header {
 #jonathan-borba {
    height: 45%;
    width: 85%;
-   /* border: 0.5rem solid #1e222e; */
    border-radius: 2rem;
    margin-bottom: 7%;
    transition-duration: 0.5s;
@@ -275,7 +272,6 @@ header {
    width: 96%;
    padding: 0;
    margin-bottom: 2%;
-   /* transition: 0.5s; */
 }
 
 #ryan-de-hamer {
@@ -292,7 +288,6 @@ header {
    width: 96%;
    padding: 0;
    margin-bottom: 2%;
-   /* transition: 0.5s; */
 }
 
 #mika {
@@ -309,7 +304,6 @@ header {
    width: 96%;
    padding: 0;
    margin-bottom: 2%;
-   /* transition: 0.5s; */
 }
 
 p {
@@ -342,9 +336,16 @@ p {
 
 footer {
    height: 10vh;
-   padding: 2.25rem;
-   text-align: center;
+   padding: 0 35%;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-around;
+   align-items: center;
    background-color: #1e222e;
+}
+
+footer a {
+   margin: 0;
 }
 
 i:hover {
@@ -399,21 +400,7 @@ i:hover {
 
    p {
       font-size: 1.5rem;
-      /* text-align: center;
-      margin: 15%; */
    }
-
-   /* #jonathan-borba {
-      margin: 0.5rem 0 0 -4rem;
-   } */
-
-   /* #ryan-de-hamer {
-      margin: 5rem 0 0 -4rem;
-   }
-
-   #mika {
-      margin: 0.5rem 0 0 -4rem;
-   } */
 
    #bottom-text {
       padding: 1%;
@@ -454,21 +441,7 @@ i:hover {
 
    p {
       font-size: 1.5rem;
-      /* text-align: center;
-      margin: 10%; */
    }
-
-   /* #jonathan-borba {
-      margin: 0.75rem 0 0 -4.25rem;
-   }
-
-   #ryan-de-hamer {
-      margin: 7.55rem 0 0 -4.25rem;
-   }
-
-   #mika {
-      margin: 0.75rem 0 0 -4.25rem;
-   } */
 
    #bottom-text {
       padding: 0 23%;
@@ -521,7 +494,7 @@ i:hover {
    #top-text-left {
       width: 98%;
       font-size: 1.55rem;
-      top: 76.5%;
+      top: 66.5%;
       left: 1%;
       background-color: hsl(240deg 9% 79% / 60%);
    }
@@ -541,6 +514,7 @@ i:hover {
    #mid-container {
       flex-flow: column;
       align-items: space-around;
+      justify-content: center;
       height: 125vh;
       padding: 20% 0;
    }
@@ -548,7 +522,7 @@ i:hover {
    .descriptor {
       width: 60%;
       height: 30%;
-      margin: 0;
+      margin-bottom: 10%;
       border: 2px solid #e4756e;
    }
 
@@ -580,8 +554,8 @@ i:hover {
       padding: 0 7%;
    }
 
-   #top-text-left {
-      top: 58.5%;
+   footer {
+      padding: 0;
    }
 }
 
@@ -591,6 +565,12 @@ i:hover {
    #mission-statement {
       font-size: 2rem;
       margin-left: 2%;
+   }
+
+   #top-text-left {
+      top: 70%;
+      height: 30%;
+      font-size: 1.25rem;
    }
 
    #spacer {
@@ -605,18 +585,6 @@ i:hover {
       font-size: 1.25rem;
    }
 
-   /* #jonathan-borba {
-      margin: 0.5rem 0 0 -4.25rem;
-   }
-
-   #ryan-de-hamer {
-      margin: 6rem 0 0 -4.25rem;
-   }
-
-   #mika {
-      margin: 2.35rem 0 0 -4.25rem;
-   } */
-
    #bottom-text {
       height: 10%;
    }
@@ -628,15 +596,7 @@ i:hover {
 
    .descriptor {
       height: 35%;
-      margin-bottom: 35rem;
-   }
-
-   footer {
-      padding: 2.25% 0;
-   }
-
-   footer a {
-      margin: 4rem;
+      margin-bottom: 10%;
    }
 }
 
@@ -652,12 +612,38 @@ i:hover {
    }
 
    #top-text-left {
-      top: 66%;
+      top: 65%;
+      height: 35%;
       font-size: 1.25rem;
+   }
+
+   #mid-container {
+      height: 140vh;
    }
 
    .descriptor {
       height: 40%;
+   }
+}
+
+/* 320 */
+
+@media (max-width: 320px) {
+   #mission-statement {
+      font-size: 1.5rem;
+   }
+
+   #top-text-left {
+      top: 65.5%;
+      font-size: 1rem;
+   }
+
+   #mid-text {
+      font-size: 1.25rem;
+   }
+
+   #bottom-text {
+      font-size: 1.25rem;
    }
 }
 
@@ -777,7 +763,6 @@ a.home-link:visited {
    width: 90%;
    height: 98%;
    background-color: #e4756e;
-   border-radius: 1rem;
    margin: 0 1%;
 }
 
@@ -966,10 +951,12 @@ img {
    }
 
    .top-title {
+      padding-top: 0.25%;
       width: 70%;
    }
 
    .bottom-title {
+      padding-top: 0.25%;
       width: 70%;
       margin: 1% 1% 1% 29%;
    }
@@ -980,6 +967,46 @@ img {
 
    .bottom-bio {
       height: 70%;
+   }
+}
+
+/* 375 */
+
+@media (max-width: 375px) {
+   #meet {
+      font-size: 1.75rem;
+   }
+
+   .top-title {
+      width: 80%;
+      font-size: 1.25rem;
+   }
+
+   .bottom-title {
+      width: 80%;
+      font-size: 1.25rem;
+      margin: 1% 1% 1% 19%;
+   }
+}
+
+/* 320 */
+
+@media (max-width: 320px) {
+   .top-title {
+      width: 98%;
+   }
+
+   .bottom-title {
+      width: 98%;
+      margin: 1% 1% 1% 1%;
+   }
+
+   .top-bio {
+      font-size: 1rem;
+   }
+
+   .bottom-bio {
+      font-size: 1rem;
    }
 }
 
