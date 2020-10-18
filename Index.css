@@ -153,9 +153,9 @@ header a:hover {
    color: #ffdd45;
 }
 
-/* header a:visited {
-   color: #FC8B2F;
-} */
+header a:visited {
+   color: #fc8b2f;
+}
 
 header {
    height: 12vh;
@@ -168,7 +168,7 @@ header {
    justify-content: space-between;
 }
 
-.anywhereFitness {
+.anywhere-fitness {
    /* border: 1px solid white; */
    width: 10%;
    height: 100%;
@@ -191,7 +191,7 @@ header {
    background-position: center;
 }
 
-#topTextLeft {
+#top-text-left {
    width: 35%;
    background-color: hsl(240deg 9% 79% / 26%);
    position: absolute;
@@ -205,7 +205,7 @@ header {
    font-size: 2rem;
 }
 
-#missionStatement {
+#mission-statement {
    width: 53%;
    position: absolute;
    top: 13rem;
@@ -224,13 +224,13 @@ header {
    background-color: #1e222e;
 }
 
-#midText {
+#mid-text {
    height: 5vh;
    font-size: 3rem;
    text-align: center;
 }
 
-#midContainer {
+#mid-container {
    height: 100vh;
    width: 100vw;
    background: rgb(30, 34, 46);
@@ -258,9 +258,12 @@ header {
 #jonathan-borba {
    height: 22vh;
    width: 90%;
-   border: 0.5rem solid #1e222e;
+   /* border: 0.5rem solid #1e222e; */
    border-radius: 2rem;
    margin: 0.75rem 0 0 -3rem;
+   /* transition-property: height; */
+   transition-duration: 0.5s;
+   border: 3px solid #e34647;
 }
 
 #jonathan-borba:hover {
@@ -268,15 +271,16 @@ header {
    width: 100%;
    padding: 0;
    margin: 0.75rem 0 0 -5rem;
-   transition: 0.5s;
+   /* transition: 0.5s; */
 }
 
 #ryan-de-hamer {
    height: 22vh;
    width: 90%;
-   border: 0.5rem solid #1e222e;
+   border: 3px solid #e34647;
    border-radius: 2rem;
    margin: 7rem 0 0 -3rem;
+   transition-duration: 0.5s;
 }
 
 #ryan-de-hamer:hover {
@@ -284,15 +288,16 @@ header {
    width: 100%;
    padding: 0;
    margin: 7rem 0 0 -5rem;
-   transition: 0.5s;
+   /* transition: 0.5s; */
 }
 
 #mika {
    height: 22vh;
    width: 90%;
-   border: 0.5rem solid #1e222e;
+   border: 3px solid #e34647;
    border-radius: 2rem;
    margin: 1.25rem 0 0 -3.25rem;
+   transition-duration: 0.5s;
 }
 
 #mika:hover {
@@ -300,7 +305,7 @@ header {
    width: 100%;
    padding: 0;
    margin: 1.25rem 0 0 -5rem;
-   transition: 0.5s;
+   /* transition: 0.5s; */
 }
 
 p {
@@ -318,7 +323,7 @@ p {
    width: 100vw;
 }
 
-#bottomText {
+#bottom-text {
    height: 5vh;
    font-size: 3rem;
    text-align: center;
@@ -359,27 +364,26 @@ i:hover {
 /* 1024 */
 
 @media (max-width: 1024px) {
-
    header {
       padding: 2%;
    }
 
-   .anywhereFitness {
+   .anywhere-fitness {
       width: 20%;
    }
 
-   #missionStatement {
+   #mission-statement {
       width: 55%;
       font-size: 2.75rem;
    }
 
-   #topTextLeft {
+   #top-text-left {
       top: 12rem;
       left: 2rem;
       font-size: 1.75rem;
    }
 
-   #midText {
+   #mid-text {
       padding: 1% 0.25%;
       font-size: 1.5rem;
    }
@@ -395,7 +399,7 @@ i:hover {
    }
 
    #jonathan-borba {
-      margin: .5rem 0 0 -4rem;
+      margin: 0.5rem 0 0 -4rem;
    }
 
    #ryan-de-hamer {
@@ -406,7 +410,7 @@ i:hover {
       margin: 0.5rem 0 0 -4rem;
    }
 
-   #bottomText {
+   #bottom-text {
       padding: 1%;
       font-size: 1.5rem;
    }
@@ -417,30 +421,28 @@ i:hover {
       object-fit: cover;
       background-position: center;
    }
-
 }
 
 /* 800 */
 
 @media (max-width: 800px) {
-
-   .anywhereFitness {
+   .anywhere-fitness {
       width: 25%;
    }
 
-   #topTextLeft {
+   #top-text-left {
       width: 30%;
       top: 12rem;
       left: 2rem;
       font-size: 1.45rem;
    }
 
-   #missionStatement {
+   #mission-statement {
       width: 55%;
       font-size: 2.25rem;
    }
 
-   #midText {
+   #mid-text {
       padding: 0 23%;
       font-size: 1.5rem;
    }
@@ -452,40 +454,38 @@ i:hover {
    }
 
    #jonathan-borba {
-      margin: .75rem 0 0 -4.25rem;
+      margin: 0.75rem 0 0 -4.25rem;
    }
-   
+
    #ryan-de-hamer {
       margin: 7.55rem 0 0 -4.25rem;
    }
-   
+
    #mika {
-      margin: .75rem 0 0 -4.25rem;
+      margin: 0.75rem 0 0 -4.25rem;
    }
 
-   #bottomText {
-      padding:0 23%;
+   #bottom-text {
+      padding: 0 23%;
       font-size: 1.5rem;
    }
 
    #sven-mieke {
-      height: 50%;;
+      height: 50%;
       width: 100vw;
       object-fit: cover;
       background-position: center;
    }
-
 }
 
 /* 500 */
 
 @media (max-width: 500px) {
-
    header {
       padding-left: 1%;
    }
 
-   .anywhereFitness {
+   .anywhere-fitness {
       width: 45%;
       margin-left: 1%;
    }
@@ -513,7 +513,7 @@ i:hover {
       flex-direction: column-reverse;
    }
 
-   #topTextLeft {
+   #top-text-left {
       width: 100%;
       font-size: 1.55rem;
       top: 66.5%;
@@ -521,7 +521,7 @@ i:hover {
       background-color: hsl(240deg 9% 79% / 60%);
    }
 
-   #missionStatement {
+   #mission-statement {
       width: 100%;
       font-size: 2.5rem;
       position: absolute;
@@ -529,8 +529,8 @@ i:hover {
       left: 1%;
    }
 
-   #midText {
-      padding: 0 7%;;
+   #mid-text {
+      padding: 0 7%;
    }
 
    .descriptor {
@@ -548,72 +548,88 @@ i:hover {
       background-position: center;
    }
 
-   #bottomText {
+   #bottom-text {
       padding: 0 7%;
    }
 
-   #topTextLeft {
-      top: 58.5%; 
-
-
+   #top-text-left {
+      top: 58.5%;
    }
 }
 
 /* iPhone 6/7/8 Plus */
 
 @media (max-width: 414px) {
+   #mission-statement {
+      font-size: 2rem;
+      margin-left: 2%;
+   }
 
-#missionStatement {
-   font-size: 2rem;
-   margin-left: 2%;
+   #spacer {
+      padding: 7%;
+   }
+
+   #mid-text {
+      height: 10%;
+   }
+
+   p {
+      font-size: 1.25rem;
+   }
+
+   #jonathan-borba {
+      margin: 0.5rem 0 0 -4.25rem;
+   }
+
+   #ryan-de-hamer {
+      margin: 6rem 0 0 -4.25rem;
+   }
+
+   #mika {
+      margin: 2.35rem 0 0 -4.25rem;
+   }
+
+   #bottom-text {
+      height: 10%;
+   }
+
+   #mid-container {
+      height: 125vh;
+   }
+
+   .descriptor {
+      height: 35%;
+      margin-bottom: 35rem;
+   }
+
+   footer {
+      padding: 2.25% 0;
+   }
+
+   footer a {
+      margin: 4rem;
+   }
 }
 
-#spacer {
-   padding: 7%;
-}
+/* iPhone 6/7/8 */
 
-#midText {
-   height: 10%;
-}
+@media (max-width: 375px) {
+   header nav a {
+      font-size: 1.5rem;
+   }
 
-p {
-   font-size: 1.25rem;
-}
+   #mission-statement {
+      font-size: 1.75rem;
+   }
 
-#jonathan-borba {
-   margin: .5rem 0 0 -4.25rem;
-}
+   #top-text-left {
+      top: 66%;
+      font-size: 1.25rem;
+   }
 
-#ryan-de-hamer {
-   margin: 6rem 0 0 -4.25rem;
-}
-
-#mika {
-   margin: 2.35rem 0 0 -4.25rem;
-}
-
-#bottomText {
-   height: 10%;
-}
-
-#midContainer {
-   height: 125vh;
-}
-
-.descriptor{
-   height: 35%;
-   margin-bottom: 35rem;
-
-}
-
-footer {
-   padding: 2.25% 0;
-}
-
-footer a{
-   margin: 4rem;
-}
-
+   .descriptor {
+      height: 40%;
+   }
 }
 
 /* End Marketing Page */
@@ -623,17 +639,26 @@ footer a{
 #meet {
    width: 100%;
    font-size: 3rem;
-   color: #1E222E;
+   color: #1e222e;
    margin: 1%;
    text-align: center;
-   background-color: #E4756E;
+   background-color: #e4756e;
 }
 
-#aboutPage {
-width: 100%;
-height: 100%;
-background: rgb(30,34,46);
-background: linear-gradient(56deg, rgba(30,34,46,1) 17%, rgba(228,117,110,1) 50%, rgba(30,34,46,1) 94%);
+a.home-link:visited {
+   color: #e34647;
+}
+
+#about-page {
+   width: 100%;
+   height: 100%;
+   background: rgb(30, 34, 46);
+   background: linear-gradient(
+      56deg,
+      rgba(30, 34, 46, 1) 17%,
+      rgba(228, 117, 110, 1) 50%,
+      rgba(30, 34, 46, 1) 94%
+   );
 }
 
 .container {
@@ -645,7 +670,7 @@ background: linear-gradient(56deg, rgba(30,34,46,1) 17%, rgba(228,117,110,1) 50%
    padding: 1rem;
 }
 
-.topHalf {
+.top-half {
    width: 85%;
    height: 45%;
    margin: 0.75%;
@@ -655,38 +680,38 @@ background: linear-gradient(56deg, rgba(30,34,46,1) 17%, rgba(228,117,110,1) 50%
    flex-flow: row nowrap;
 }
 
-.topImg {
+.top-img {
    width: 10.75%;
    height: 98%;
-   border: 2px solid #1E222E;
+   border: 2px solid #1e222e;
    border-radius: 50%;
    overflow: hidden;
 }
 
-.topImg a {
+.top-img a {
    margin: auto;
 }
 
-.topInfo {
+.top-info {
    width: 90%;
    height: 98%;
-   background-color: #E4756E;
+   background-color: #e4756e;
    margin: 0 1%;
 }
 
-.topTitle {
+.top-title {
    width: 20%;
    height: 20%;
-   background-color: #1E222E;
+   background-color: #1e222e;
    text-align: center;
    margin: 1%;
    border-radius: 0.5rem;
 }
 
-.topBio {
+.top-bio {
    width: 98%;
    height: 60%;
-   background-color: #1E222E;
+   background-color: #1e222e;
    font-size: 2.5rem;
    display: flex;
    justify-content: space-around;
@@ -697,7 +722,7 @@ background: linear-gradient(56deg, rgba(30,34,46,1) 17%, rgba(228,117,110,1) 50%
    border-radius: 0.5rem;
 }
 
-.bottomHalf {
+.bottom-half {
    width: 85%;
    height: 45%;
    margin: 0.75% 0.75% 0.75% 14.25%;
@@ -707,40 +732,40 @@ background: linear-gradient(56deg, rgba(30,34,46,1) 17%, rgba(228,117,110,1) 50%
    flex-direction: row-reverse;
 }
 
-.bottomImg {
+.bottom-img {
    width: 10.75%;
    height: 98%;
-   border: 2px solid #1E222E;
+   border: 2px solid #1e222e;
    border-radius: 50%;
    overflow: hidden;
 }
 
-.bottomImg a {
+.bottom-img a {
    margin: auto;
 }
 
-.bottomInfo {
+.bottom-info {
    width: 90%;
    height: 98%;
-   background-color: #E4756E;
-   border-radius 1rem;
+   background-color: #e4756e;
+   border-radius: 1rem;
    margin: 0 1%;
 }
 
-.bottomTitle {
+.bottom-title {
    width: 20%;
    height: 20%;
-   background-color: #1E222E;
+   background-color: #1e222e;
    text-align: center;
    margin: 1% 1% 1% 79%;
-   border-radius: .5rem;
+   border-radius: 0.5rem;
 }
 
-.bottomBio {
+.bottom-bio {
    width: 98%;
    height: 60%;
    font-size: 2.5rem;
-   background-color: #1E222E;
+   background-color: #1e222e;
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -761,180 +786,172 @@ img {
 /* 1024 */
 
 @media (max-width: 1024px) {
-
    .container {
       width: 100%;
       margin: 0;
    }
 
-   .topHalf {
+   .top-half {
       width: 85%;
    }
 
-   .bottomHalf {
+   .bottom-half {
       width: 85%;
       padding-right: 1%;
    }
 
-   .topImg {
+   .top-img {
       width: 15%;
    }
 
-   .topInfo {
+   .top-info {
       width: 85%;
       margin: 0 3%;
    }
-   
-   .topTitle {
+
+   .top-title {
       width: 30%;
    }
 
-   .bottomImg {
+   .bottom-img {
       width: 15%;
    }
-   
-   .bottomInfo {
+
+   .bottom-info {
       width: 85%;
       margin: 0 3%;
    }
-   
-   .bottomTitle {
+
+   .bottom-title {
       width: 30%;
       margin: 1% 1% 1% 69%;
    }
-
 }
 
 /* 800 */
 
 @media (max-width: 800px) {
-
-   .topHalf {
+   .top-half {
       width: 75%;
    }
 
-   .bottomHalf {
+   .bottom-half {
       width: 75%;
       margin: 0.75% 0.75% 0.75% 24.25%;
    }
 
-   .topImg {
+   .top-img {
       width: 25%;
    }
 
-   .topInfo {
+   .top-info {
       width: 85%;
       margin: 0 5%;
    }
-   
-   .topTitle {
+
+   .top-title {
       width: 55%;
    }
 
-   .topBio {
+   .top-bio {
       font-size: 1.75rem;
    }
 
-   .bottomImg {
+   .bottom-img {
       width: 25%;
    }
-   
-   .bottomInfo {
+
+   .bottom-info {
       width: 85%;
       margin: 0 5%;
    }
-   
-   .bottomTitle {
+
+   .bottom-title {
       width: 55%;
       margin: 1% 1% 1% 39%;
    }
 
-   .bottomBio {
+   .bottom-bio {
       font-size: 1.75rem;
    }
-
 }
 
 /* 500 */
 
 @media (max-width: 500px) {
-
-   .topHalf {
+   .top-half {
       width: 95%;
    }
 
-   .bottomHalf {
+   .bottom-half {
       width: 95%;
       margin: 0.75% 0.75% 0.75% 0.75%;
    }
 
-   .topImg {
+   .top-img {
       width: 40%;
    }
 
-   .topInfo {
+   .top-info {
       width: 85%;
       margin: 0 5%;
       font-size: 1.25rem;
    }
-   
-   .topTitle {
+
+   .top-title {
       width: 60%;
       padding-top: 1.5%;
    }
 
-   .topBio {
+   .top-bio {
       font-size: 1.25rem;
    }
 
-   .bottomImg {
+   .bottom-img {
       width: 40%;
    }
-   
-   .bottomInfo {
+
+   .bottom-info {
       width: 85%;
       margin: 0 5%;
       font-size: 1.25rem;
    }
-   
-   .bottomTitle {
+
+   .bottom-title {
       width: 60%;
       margin: 1% 1% 1% 39%;
       padding-top: 1.5%;
    }
 
-   .bottomBio {
+   .bottom-bio {
       font-size: 1.25rem;
    }
-
 }
 
 /* 414 */
 
 @media (max-width: 414px) {
-
    #meet {
       font-size: 2rem;
       padding: 0 15%;
    }
-      
-   .topTitle {
+
+   .top-title {
       width: 70%;
    }
 
-   .bottomTitle {
+   .bottom-title {
       width: 70%;
       margin: 1% 1% 1% 29%;
    }
 
-   .topBio {
+   .top-bio {
       height: 70%;
    }
 
-   .bottomBio {
+   .bottom-bio {
       height: 70%;
    }
-
 }
 
 /* End About Us Page */
