@@ -4,9 +4,21 @@ This is the Dark Themed marketing page for Anywhere Fitness, a project for Lambd
 
 ## Landing Page
 
+![Landing Page 1](/Images/Landing Page 1.png)
+Format: ![Alt Text](url)
+
+![Landing Page 2](/Images/Landing Page 2.png)
+Format: ![Alt Text](url)
+
+![Landing Page 3](/Images/Landing Page 3.png)
+Format: ![Alt Text](url)
+
 Main landing page contains links to the About Us page, Login page and Sign Up page.  The top section of the page contains information about Anywhere Fitness as well as the Mission Statement.  The middle of the page contains Links (to be connected later, time willing) to rate instructors, find instructors/workouts and access a saved list of favorite instructors.  The bottom of the page contains Links to Facebook, Twitter and Instagram (these will not go to the actual social sites, as there are no actual accounts).
 
 ## About Us Page
+
+![About Us Page](/Images/About Us Page.png)
+Format: ![Alt Text](url)
 
 The About Us page contains information about all of the members of the Build Week team.  Pictures are taken from Slack account pics; each picture can be clicked to take the user to the team member's Github page.  There is one link at the top of this page, to take the user back to the Landing Page.
 
