@@ -1254,42 +1254,46 @@ img {
 
    .bottom-half-rp {
       width: 75%;
-      margin: 0.75% 0.75% 0.75% 24.25%;
+      /* margin: 0.75% 0.75% 0.75% 24.25%; */
    }
 
    .top-img-rp {
-      width: 25%;
+      width: 15%;
    }
 
    .top-info-rp {
-      width: 85%;
+      width: 95%;
       margin: 0 5%;
    }
 
    .top-title-rp {
-      width: 55%;
+      width: 98%;
+      padding: 4% 35% 0 0;
    }
 
    .top-bio-rp {
-      font-size: 1.75rem;
+      font-size: 2rem;
    }
 
    .bottom-img-rp {
-      width: 25%;
+      width: 15%;
+      right: 30%;
+      margin-top: 29.5%;
    }
 
    .bottom-info-rp {
-      width: 85%;
+      width: 95%;
       margin: 0 5%;
    }
 
    .bottom-title-rp {
-      width: 55%;
-      margin: 1% 1% 1% 39%;
+      width: 98%;
+      padding: 4% 0 0 35%;
+      /* margin: 1% 1% 1% 39%; */
    }
 
    .bottom-bio-rp {
-      font-size: 1.75rem;
+      font-size: 2rem;
    }
 }
 
