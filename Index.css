@@ -1506,7 +1506,7 @@ img {
 
 #find-page {
    width: 100vw;
-   height: 150vh;
+   height: 200vh;
    background: rgb(30, 34, 46);
    background: radial-gradient(
       circle,
@@ -1522,7 +1522,7 @@ img {
 
 .container-find {
    width: 100%;
-   height: 50%;
+   height: 50vh;
    /* border: 1px solid black; */
    padding: 1% 0;
    display: flex;
@@ -1569,7 +1569,8 @@ img {
 .instructor-find {
    width: 30%;
    height: 92%;
-   background: rgb(228, 117, 110);
+   background-color: #e4756e;
+   /* background: rgb(228, 117, 110);
    background: linear-gradient(
       270deg,
       rgba(228, 117, 110, 1) 6%,
@@ -1577,7 +1578,7 @@ img {
       rgba(228, 117, 110, 1) 49%,
       rgba(30, 34, 46, 1) 81%,
       rgba(228, 117, 110, 1) 97%
-   );
+   ); */
    border-radius: 2rem;
    display: flex;
    flex-flow: column;
@@ -1609,7 +1610,8 @@ img {
 .location-find {
    width: 65%;
    height: 92%;
-   background: rgb(228, 117, 110);
+   background-color: #e4756e;
+   /* background: rgb(228, 117, 110);
    background: linear-gradient(
       270deg,
       rgba(228, 117, 110, 1) 6%,
@@ -1617,7 +1619,7 @@ img {
       rgba(228, 117, 110, 1) 49%,
       rgba(30, 34, 46, 1) 81%,
       rgba(228, 117, 110, 1) 97%
-   );
+   ); */
    display: flex;
    flex-flow: column;
    justify-content: space-evenly;
