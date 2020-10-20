@@ -19,6 +19,11 @@
 ###### The About Us page contains information about all of the members of the Build Week team.  Pictures are taken from Slack account profiles; each picture can be clicked to take the user to the team member's Github page.  There is one link at the top of this page, to take the user back to the Landing Page.
 <img src="Images/About%20Us%20Page.png" alt="About Us Page">
 
+## Ratings Page
+
+###### The ratings page is a mock-up of what it would look like when completed.  If fully functional, the user would be able to input ratings and see instructors they have rated.
+<img src="Images/Ratings%20Page.png" alt="Ratings Page">
+
 
 ## Other Info
 
