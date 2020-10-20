@@ -129,10 +129,13 @@ h6 {
 }
 
 /* Contents */
-/* Marketing Page ... 138 - 650 */
-/* About Us Page ... 652 - 1013 */
+/* Marketing Page ... 138 - 371 */
 /* Media Queries ... (MP) 367 - 648 */
+/* About Us Page ... 658 - 802 */
 /* Media Queries ... (AU)  798 - 1011 */
+/* Ratings Page ... 1021 - 1192 */
+/* Media Queries ... (RP) 1194 - 1436 */
+
 /* Colors Used ... #1E222E (background, font) ... #E4756E (background) ... #E34647 (font) */
 
 /* Start Marketing Page */
@@ -1057,7 +1060,6 @@ img {
    padding: 1rem;
    display: flex;
    flex-flow: row;
-   /* border: 1px solid white; */
 }
 
 .top-half-rp {
@@ -1092,7 +1094,6 @@ img {
 
 .top-img-rp a {
    margin: auto;
-   border: 1px solid white;
 }
 
 .top-info-rp {
@@ -1100,7 +1101,6 @@ img {
    height: 98%;
    background-color: #e4756e;
    margin: 1% 4.5%;
-   /* border: 1px solid white; */
 }
 
 .top-title-rp {
@@ -1111,7 +1111,6 @@ img {
    padding: 1.5% 0;
    margin: 1% 1% 1% 9%;
    border-radius: 0.5rem;
-   /* border: 1px solid white; */
 }
 
 .top-bio-rp {
@@ -1126,7 +1125,6 @@ img {
    padding: 0 2%;
    margin: 1%;
    border-radius: 0.5rem;
-   /* border: 1px solid white; */
 }
 
 .bottom-half-rp {
@@ -1161,7 +1159,6 @@ img {
 
 .bottom-img-rp a {
    margin: auto;
-   border: 1px solid white;
 }
 
 .bottom-info-rp {
@@ -1170,8 +1167,7 @@ img {
    display: flex;
    flex-direction: column-reverse;
    background-color: #e4756e;
-   margin: 0 1%;
-   /* border: 1px solid white; */
+   margin: 1% 4.5%;
 }
 
 .bottom-title-rp {
@@ -1182,7 +1178,6 @@ img {
    margin: 1% 9% 1% 1%;
    padding: 1.5% 0;
    border-radius: 0.5rem;
-   /* border: 1px solid white; */
 }
 
 .bottom-bio-rp {
@@ -1197,7 +1192,6 @@ img {
    padding: 0 2%;
    margin: 1%;
    border-radius: 0.5rem;
-   /* border: 1px solid white; */
 }
 
 /* RP Media Queries */
@@ -1271,7 +1265,6 @@ img {
 
    .bottom-half-rp {
       width: 75%;
-      /* margin: 0.75% 0.75% 0.75% 24.25%; */
    }
 
    .top-img-rp {
@@ -1306,7 +1299,6 @@ img {
    .bottom-title-rp {
       width: 98%;
       padding: 4% 0 0 35%;
-      /* margin: 1% 1% 1% 39%; */
    }
 
    .bottom-bio-rp {
@@ -1369,13 +1361,11 @@ img {
    .bottom-title-rp {
       width: 98%;
       height: 10%;
-      /* margin: 1% 1% 1% 39%; */
       padding: 5% 0 0 45%;
    }
 
    .bottom-bio-rp {
       height: 88%;
-      /* text-align: center; */
       font-size: 1.23rem;
    }
 }
@@ -1448,4 +1438,4 @@ img {
    }
 }
 
-/* End About Us Page */
+/* End Ratings Page */
