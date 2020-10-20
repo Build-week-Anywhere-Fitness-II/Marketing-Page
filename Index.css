@@ -1020,6 +1020,15 @@ img {
 
 /* Start Ratings Page */
 
+#rate {
+   width: 100%;
+   font-size: 3rem;
+   color: #1e222e;
+   margin: 1%;
+   text-align: center;
+   background-color: #e4756e;
+}
+
 .rating {
    width: 60%;
    height: auto;
@@ -1196,6 +1205,10 @@ img {
 /* 1024 */
 
 @media (max-width: 1024px) {
+   #rate {
+      font-size: 2.75rem;
+   }
+
    .container-rp {
       width: 100%;
       margin: 0;
@@ -1248,6 +1261,10 @@ img {
 /* 800 */
 
 @media (max-width: 800px) {
+   #rate {
+      font-size: 2.25rem;
+   }
+
    .top-half-rp {
       width: 75%;
    }
@@ -1300,6 +1317,10 @@ img {
 /* 500 */
 
 @media (max-width: 500px) {
+   #rate {
+      padding: 0 7%;
+   }
+
    .top-half-rp {
       width: 95%;
    }
@@ -1310,7 +1331,9 @@ img {
    }
 
    .top-img-rp {
-      width: 40%;
+      width: 20%;
+      height: 12%;
+      left: 23%;
    }
 
    .top-info-rp {
@@ -1320,16 +1343,21 @@ img {
    }
 
    .top-title-rp {
-      width: 60%;
-      padding-top: 1.5%;
+      width: 98%;
+      height: 10%;
+      padding: 7% 45% 0 0;
    }
 
    .top-bio-rp {
-      font-size: 1.25rem;
+      height: 88%;
+      font-size: 1.23rem;
    }
 
    .bottom-img-rp {
-      width: 40%;
+      width: 20%;
+      height: 12%;
+      right: 23%;
+      margin-top: 54%;
    }
 
    .bottom-info-rp {
@@ -1339,13 +1367,16 @@ img {
    }
 
    .bottom-title-rp {
-      width: 60%;
-      margin: 1% 1% 1% 39%;
-      padding-top: 1.5%;
+      width: 98%;
+      height: 10%;
+      /* margin: 1% 1% 1% 39%; */
+      padding: 5% 0 0 45%;
    }
 
    .bottom-bio-rp {
-      font-size: 1.25rem;
+      height: 88%;
+      /* text-align: center; */
+      font-size: 1.23rem;
    }
 }
 
