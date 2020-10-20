@@ -1443,6 +1443,15 @@ img {
 
 /* Start Find Page */
 
+#meet-fp {
+   width: 100%;
+   font-size: 3rem;
+   color: #1e222e;
+   margin: 1%;
+   text-align: center;
+   background-color: #e4756e;
+}
+
 #zip-code {
    background-color: #1e222e;
    /* border: 1px solid white; */
@@ -1571,14 +1580,14 @@ img {
    height: 92%;
    background-color: #e4756e;
    /* background: rgb(228, 117, 110);
-   background: linear-gradient(
-      270deg,
-      rgba(228, 117, 110, 1) 6%,
-      rgba(30, 34, 46, 1) 20%,
-      rgba(228, 117, 110, 1) 49%,
-      rgba(30, 34, 46, 1) 81%,
-      rgba(228, 117, 110, 1) 97%
-   ); */
+      background: linear-gradient(
+         270deg,
+         rgba(228, 117, 110, 1) 6%,
+         rgba(30, 34, 46, 1) 20%,
+         rgba(228, 117, 110, 1) 49%,
+         rgba(30, 34, 46, 1) 81%,
+         rgba(228, 117, 110, 1) 97%
+      ); */
    border-radius: 2rem;
    display: flex;
    flex-flow: column;
@@ -1612,14 +1621,14 @@ img {
    height: 92%;
    background-color: #e4756e;
    /* background: rgb(228, 117, 110);
-   background: linear-gradient(
-      270deg,
-      rgba(228, 117, 110, 1) 6%,
-      rgba(30, 34, 46, 1) 20%,
-      rgba(228, 117, 110, 1) 49%,
-      rgba(30, 34, 46, 1) 81%,
-      rgba(228, 117, 110, 1) 97%
-   ); */
+      background: linear-gradient(
+         270deg,
+         rgba(228, 117, 110, 1) 6%,
+         rgba(30, 34, 46, 1) 20%,
+         rgba(228, 117, 110, 1) 49%,
+         rgba(30, 34, 46, 1) 81%,
+         rgba(228, 117, 110, 1) 97%
+      ); */
    display: flex;
    flex-flow: column;
    justify-content: space-evenly;
@@ -1685,4 +1694,99 @@ img {
    justify-content: center;
    align-items: center;
    border: 3px solid #e34647;
+}
+
+/* Media Queries Find Instructor Page */
+
+/* 1024 */
+
+@media (max-width: 1024px) {
+   #find-page-nav {
+      width: 30%;
+   }
+}
+
+/* 800 */
+
+@media (max-width: 800px) {
+   #zip-entry {
+      font-size: 1.5rem;
+   }
+
+   #find-page-nav {
+      width: 40%;
+   }
+
+   #button {
+      padding: 3%;
+   }
+
+   #find-page {
+      height: 200vh;
+   }
+
+   .container-find {
+      height: 15%;
+      flex-flow: column;
+      justify-content: center;
+      margin-bottom: 8%;
+   }
+
+   .left-side-find {
+      width: 80%;
+      height: 80%;
+      margin-bottom: 1%;
+   }
+
+   .right-side-find {
+      width: 80%;
+      height: 80%;
+   }
+
+   .instr-name {
+      font-size: 1.25rem;
+   }
+
+   .loc-address {
+      font-size: 1.25rem;
+   }
+}
+
+/* 500 */
+
+@media (max-width: 500px) {
+   #meet-fp {
+      font-size: 2rem;
+   }
+
+   #data {
+      width: 30%;
+      flex-flow: row-reverse;
+      justify-content: space-between;
+   }
+
+   #zip-entry {
+      width: 45%;
+      letter-spacing: 0.25rem;
+   }
+
+   #find-page-nav {
+      width: 50%;
+   }
+
+   #button {
+      padding: 1%;
+   }
+
+   .left-side-find {
+      width: 98%;
+   }
+
+   .right-side-find {
+      width: 98%;
+   }
+
+   .loc-address {
+      font-size: 1rem;
+   }
 }

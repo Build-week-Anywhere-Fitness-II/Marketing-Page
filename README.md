@@ -24,6 +24,10 @@
 ###### The ratings page is a mock-up of what it would look like when completed.  If fully functional, the user would be able to input ratings and see instructors they have rated.
 <img src="Images/Ratings%20Page.png" alt="Ratings Page">
 
+## Find Workout Page
+
+###### The find workout page is a mock-up of what it would look like when completed.  If fully functional, the user would enter their zip code in the entry area, click the "Find Workout" button, and the screen would populate with instructors and workout venues which the user would be able to click to schedule a workout.
+<img src="Images/Find%20Workout%20Page.png" alt="Find Workout Page">
 
 ## Other Info
 
