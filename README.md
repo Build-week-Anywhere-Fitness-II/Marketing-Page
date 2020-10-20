@@ -27,4 +27,4 @@
 
 ## Other Info
 
-###### The Anywhere Fitness Logo was created using Figma; stock photos were found on Unsplash; background gradients were created using CSS Gradient.
+###### The Anywhere Fitness Logo and star ratings were created using Figma; stock photos were found on Unsplash; background gradients were created using CSS Gradient.

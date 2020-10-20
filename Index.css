@@ -1191,7 +1191,7 @@ img {
    /* border: 1px solid white; */
 }
 
-/* AU Media Queries */
+/* RP Media Queries */
 
 /* 1024 */
 
@@ -1211,7 +1211,9 @@ img {
    }
 
    .top-img-rp {
-      width: 15%;
+      width: 12%;
+      left: 30%;
+      margin-top: 0.5%;
    }
 
    .top-info-rp {
@@ -1220,11 +1222,15 @@ img {
    }
 
    .top-title-rp {
-      width: 30%;
+      width: 98%;
+      margin: 1%;
+      padding: 2% 25% 0 0;
    }
 
    .bottom-img-rp {
-      width: 15%;
+      width: 12%;
+      right: 30%;
+      margin-top: 22.5%;
    }
 
    .bottom-info-rp {
@@ -1233,8 +1239,9 @@ img {
    }
 
    .bottom-title-rp {
-      width: 30%;
-      margin: 1% 1% 1% 69%;
+      width: 98%;
+      margin: 1%;
+      padding: 2% 0 0 25%;
    }
 }
 
