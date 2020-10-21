@@ -162,9 +162,9 @@ header a:hover {
    color: #ffdd45;
 }
 
-header a:visited {
+/* header a:visited {
    color: #fc8b2f;
-}
+} */
 
 header {
    height: 12vh;
