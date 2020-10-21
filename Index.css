@@ -131,15 +131,15 @@ h6 {
 
 /* Contents */
 /* Marketing Page ... 146 - 379 */
-/* Media Queries ... (MP) 381 - 662 */
-/* About Us Page ... 666 - 810 */
-/* Media Queries ... (AU)  812 - 1025 */
-/* Ratings Page ... 1029 - 1200 */
-/* Media Queries ... (RP) 1202 - 1444 */
-/* Find Workout Page ... 1448 - 1670 */
-/* Media Queries ... (FWP) 1672 - 1765 */
-/* Favorites Page ... 1769 - 1904 */
-/* Media Queries ... (FP) 1906 - 1966 */
+/* Media Queries ... (MP) 381 - 680 */
+/* About Us Page ... 684 - 828 */
+/* Media Queries ... (AU)  830 - 1043 */
+/* Ratings Page ... 1047 - 1238 */
+/* Media Queries ... (RP) 1240 - 1482 */
+/* Find Workout Page ... 1486 - 1708 */
+/* Media Queries ... (FWP) 1710 - 1803 */
+/* Favorites Page ... 1805 - 1942 */
+/* Media Queries ... (FP) 1944 - 2004 */
 
 /* Colors Used ... #1E222E (background, font) ... #E4756E (background) ... #E34647 (font) */
 
@@ -148,7 +148,7 @@ h6 {
 /* Top Section =================================================================================================================================================== */
 
 nav {
-   padding-top: 5.5rem;
+   padding-top: 2.25%;
 }
 
 a {
@@ -158,13 +158,13 @@ a {
    margin: 5rem;
 }
 
-header a:hover {
+.here-link {
    color: #ffdd45;
 }
 
-/* header a:visited {
-   color: #fc8b2f;
-} */
+header a:hover {
+   color: #ffdd45;
+}
 
 header {
    height: 12vh;
@@ -387,6 +387,15 @@ i:hover {
       padding: 2%;
    }
 
+   nav {
+      padding-top: 4.5%;
+   }
+
+   header nav a {
+      margin: 0 3rem;
+      font-size: 1.75rem;
+   }
+
    .anywhere-fitness {
       width: 20%;
    }
@@ -434,6 +443,15 @@ i:hover {
 @media (max-width: 800px) {
    .anywhere-fitness {
       width: 25%;
+   }
+
+   nav {
+      padding-top: 5.5%;
+   }
+
+   header nav a {
+      margin: 2rem;
+      font-size: 1.5rem;
    }
 
    #top-text-left {
@@ -712,7 +730,7 @@ a.home-link:visited {
 .top-img {
    width: 10.75%;
    height: 98%;
-   border: 2px solid #1e222e;
+   border: 3px solid #1e222e;
    border-radius: 50%;
    overflow: hidden;
 }
@@ -724,13 +742,22 @@ a.home-link:visited {
 .top-info {
    width: 90%;
    height: 98%;
-   background-color: #e4756e;
+   border-radius: 1rem;
+   border: 3px solid #1e222e;
+   background: rgb(228, 117, 110);
+   background: linear-gradient(
+      195deg,
+      rgba(228, 117, 110, 1) 15%,
+      rgba(30, 34, 46, 1) 75%,
+      rgba(228, 117, 110, 1) 85%
+   );
    margin: 0 1%;
 }
 
 .top-title {
    width: 20%;
    height: 20%;
+   border: 1px solid #e4756e;
    background-color: #1e222e;
    text-align: center;
    margin: 1%;
@@ -740,6 +767,7 @@ a.home-link:visited {
 .top-bio {
    width: 98%;
    height: 60%;
+   border: 1px solid #e4756e;
    background-color: #1e222e;
    font-size: 2.5rem;
    display: flex;
@@ -764,7 +792,7 @@ a.home-link:visited {
 .bottom-img {
    width: 10.75%;
    height: 98%;
-   border: 2px solid #1e222e;
+   border: 3px solid #1e222e;
    border-radius: 50%;
    overflow: hidden;
 }
@@ -776,13 +804,22 @@ a.home-link:visited {
 .bottom-info {
    width: 90%;
    height: 98%;
-   background-color: #e4756e;
+   border-radius: 1rem;
+   border: 3px solid #1e222e;
+   background: rgb(228, 117, 110);
+   background: linear-gradient(
+      165deg,
+      rgba(228, 117, 110, 1) 15%,
+      rgba(30, 34, 46, 1) 75%,
+      rgb(66, 40, 38) 85%
+   );
    margin: 0 1%;
 }
 
 .bottom-title {
    width: 20%;
    height: 20%;
+   border: 1px solid #e4756e;
    background-color: #1e222e;
    text-align: center;
    margin: 1% 1% 1% 79%;
@@ -793,6 +830,7 @@ a.home-link:visited {
    width: 98%;
    height: 60%;
    font-size: 2.5rem;
+   border: 1px solid #e4756e;
    background-color: #1e222e;
    display: flex;
    justify-content: space-around;
