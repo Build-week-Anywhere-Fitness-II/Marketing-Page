@@ -7,7 +7,7 @@
 ###### Main Landing page contains links to the About Us page, Login page and Sign Up page.  The top section of the page contains information about Anywhere Fitness as well as the Mission Statement. 
 <img src="Images/Landing%20Page%201.png" alt="Landing Page 1">
 
-###### The middle of the page contains links (to be connected later, time willing) to rate instructors, find instructors/workouts and access a saved list of favorite instructors.  
+###### The middle of the page contains links to rate instructors, find instructors/workouts and access a saved list of favorite instructors.  
 <img src="Images/Landing%20Page%202.png" alt="Landing Page 2">
 
 ###### The bottom of the page contains links to Facebook, Twitter and Instagram (these will not go to the actual social media sites, just stock photos, as there are no actual accounts).
@@ -28,6 +28,11 @@
 
 ###### The find workout page is a mock-up of what it would look like when completed.  If fully functional, the user would enter their zip code in the entry area, click the "Find Workout" button, and the screen would populate with instructors and workout venues which the user would be able to click to schedule a workout.
 <img src="Images/Find%20Workout%20Page.png" alt="Find Workout Page">
+
+## Favorites Page
+
+###### The favorites page is a mock-up of what it would look like when completed.  If fully functional, the user would see a list of their 5 top-rated instructors and be able to select them to schedule a workout.
+<img src="Images/Favorites%20Page.png" alt="Favorites Page">
 
 ## Other Info
 

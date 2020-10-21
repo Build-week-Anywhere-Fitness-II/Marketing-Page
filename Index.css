@@ -130,12 +130,16 @@ h6 {
 }
 
 /* Contents */
-/* Marketing Page ... 138 - 371 */
-/* Media Queries ... (MP) 367 - 648 */
-/* About Us Page ... 658 - 802 */
-/* Media Queries ... (AU)  798 - 1011 */
-/* Ratings Page ... 1021 - 1192 */
-/* Media Queries ... (RP) 1194 - 1436 */
+/* Marketing Page ... 146 - 379 */
+/* Media Queries ... (MP) 381 - 662 */
+/* About Us Page ... 666 - 810 */
+/* Media Queries ... (AU)  812 - 1025 */
+/* Ratings Page ... 1029 - 1200 */
+/* Media Queries ... (RP) 1202 - 1444 */
+/* Find Workout Page ... 1448 - 1670 */
+/* Media Queries ... (FWP) 1672 - 1765 */
+/* Favorites Page ... 1769 - 1904 */
+/* Media Queries ... (FP) 1906 - 1966 */
 
 /* Colors Used ... #1E222E (background, font) ... #E4756E (background) ... #E34647 (font) */
 
@@ -537,27 +541,27 @@ i:hover {
    }
 
    #jonathan-borba {
-      height: 50%;
+      height: 90%;
    }
 
    #jonathan-borba:hover {
-      height: 60%;
+      height: 96%;
    }
 
    #ryan-de-hamer {
-      height: 50%;
+      height: 90%;
    }
 
    #ryan-de-hamer:hover {
-      height: 60%;
+      height: 96%;
    }
 
    #mika {
-      height: 50%;
+      height: 90%;
    }
 
    #mika:hover {
-      height: 60%;
+      height: 96%;
    }
 
    #bottom-text {
@@ -1846,35 +1850,30 @@ img {
    flex-flow: column nowrap;
    color: #e34647;
    font-size: 2.25rem;
-   /* text-align: center; */
 }
 
 .instr-name-fav {
    width: 100%;
    height: 20%;
    padding-left: 5%;
-   /* border: 1px solid white; */
 }
 
 .instr-type {
    width: 100%;
    height: 20%;
    padding-left: 5%;
-   /* border: 1px solid white; */
 }
 
 .instr-loc {
    width: 100%;
    height: 20%;
    padding-left: 5%;
-   /* border: 1px solid white; */
 }
 
 .instr-rating-user {
    width: 100%;
    height: 20%;
    padding-left: 5%;
-   /* border: 1px solid white; */
    display: flex;
    align-items: center;
 }
@@ -1883,7 +1882,6 @@ img {
    width: 100%;
    height: 20%;
    padding-left: 5%;
-   /* border: 1px solid white; */
    display: flex;
    align-items: center;
 }
@@ -1898,3 +1896,71 @@ img {
    width: 17%;
    margin-left: 2%;
 }
+
+/* Media Queries =========================================================================================================================================================  */
+
+/* 1024 ==================================================================================================================================================================  */
+
+@media (max-width: 1024px) {
+   .instr-container {
+      margin: 4% auto;
+      height: 17%;
+      width: 80%;
+   }
+
+   .number {
+      font-size: 5rem;
+   }
+
+   .instr-bio-fav {
+      font-size: 2rem;
+   }
+}
+
+/* 800 ====================================================================================================================================================================  */
+
+@media (max-width: 800px) {
+   #faves-page {
+      height: 125vh;
+   }
+   .instr-container {
+      width: 90%;
+   }
+
+   .number {
+      font-size: 4rem;
+   }
+
+   .instr-bio-fav {
+      font-size: 1.75rem;
+   }
+}
+
+/* 500 =======================================================================================================================================================  */
+
+@media (max-width: 500px) {
+   .instr-container {
+      width: 98%;
+      height: 13%;
+      margin: 7% auto;
+   }
+
+   .instr-img-fav {
+      width: 25%;
+   }
+
+   .instr-bio-fav {
+      width: 71%;
+      font-size: 1.25rem;
+   }
+
+   .number {
+      font-size: 3.5rem;
+   }
+
+   .stars-fav {
+      width: 20%;
+   }
+}
+
+/* End Favorites Page */
