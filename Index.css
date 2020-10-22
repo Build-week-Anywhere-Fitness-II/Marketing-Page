@@ -1952,6 +1952,7 @@ img {
    }
 
    .number {
+      width: 10%;
       font-size: 5rem;
    }
 
