@@ -171,8 +171,8 @@ a {
 }
 
 .switch {
-   width: 4.755rem;
-   height: 2.25rem;
+   width: 3.25rem;
+   height: 1.5rem;
    position: relative;
    display: inline-block;
 }
@@ -187,7 +187,7 @@ a {
    position: absolute;
    cursor: pointer;
    top: 0;
-   left: 0.25rem;
+   left: 0;
    right: 0;
    bottom: 0;
    background-color: #cccccc;
@@ -198,9 +198,9 @@ a {
 .slider:before {
    position: absolute;
    content: "";
-   height: 2.25rem;
-   width: 2.25rem;
-   left: -0.25rem;
+   height: 1.5rem;
+   width: 1.5rem;
+   left: 0;
    bottom: 0;
    background-color: white;
    -webkit-transition: 0.4s;
@@ -208,17 +208,17 @@ a {
 }
 
 input:checked + .slider {
-   background-color: #e34647;
+   background-color: #2196f3;
 }
 
 input:focus + .slider {
-   box-shadow: 0 0 1px #e34647;
+   box-shadow: 0 0 1px #2196f3;
 }
 
 input:checked + .slider:before {
-   -webkit-transform: translateX(2.6rem);
-   -ms-transform: translateX(2.6rem);
-   transform: translateX(2.6rem);
+   -webkit-transform: translateX(1.65rem);
+   -ms-transform: translateX(1.65rem);
+   transform: translateX(1.65rem);
 }
 
 .slider.round {
@@ -230,7 +230,11 @@ input:checked + .slider:before {
 }
 
 #toggle {
-   margin-top: 3%;
+   margin-top: 3.75%;
+}
+
+#toggle-au {
+   margin-top: 6.5%;
 }
 
 .here-link {
@@ -463,12 +467,28 @@ i:hover {
    }
 
    nav {
-      padding-top: 4.5%;
+      padding-top: 5.5%;
    }
 
    header nav a {
       margin: 0 3rem;
       font-size: 1.75rem;
+   }
+
+   #nav-toggle {
+      margin-right: 2.25%;
+   }
+
+   #nav-toggle-au {
+      margin: 1% 2.25% 0 0;
+   }
+
+   #toggle {
+      padding-top: 3.75%;
+   }
+
+   #toggle-au {
+      padding-top: 5.75%;
    }
 
    .anywhere-fitness {
@@ -521,12 +541,24 @@ i:hover {
    }
 
    nav {
-      padding-top: 5.5%;
+      padding-top: 8.5%;
    }
 
    header nav a {
       margin: 2rem;
       font-size: 1.5rem;
+   }
+
+   #nav-toggle-au {
+      padding-top: 3%;
+   }
+
+   #toggle {
+      margin-top: 7.5%;
+   }
+
+   #toggle-au {
+      margin-top: 12%;
    }
 
    #top-text-left {
@@ -591,6 +623,29 @@ i:hover {
    header nav a {
       padding: 0;
       margin: 0;
+   }
+
+   #nav-toggle {
+      margin-right: 2.25%;
+   }
+
+   #nav-toggle-au {
+      width: 20%;
+      margin-top: 6%;
+   }
+
+   #nav-au {
+      width: 80%;
+      padding: 6% 1% 0 0;
+      margin-top: 8%;
+   }
+
+   #toggle {
+      margin-top: 47%;
+   }
+
+   #toggle-au {
+      padding-left: 1%;
    }
 
    #container {
