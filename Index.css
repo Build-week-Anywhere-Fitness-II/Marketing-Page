@@ -161,7 +161,7 @@ a {
 #nav-toggle {
    display: flex;
    flex-flow: row no-wrap;
-   padding-top: 1%;
+   padding-top: 1.5%;
 }
 
 #nav-toggle-au {
