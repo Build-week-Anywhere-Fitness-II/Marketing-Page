@@ -130,16 +130,16 @@ h6 {
 }
 
 /* Contents */
-/* Marketing Page ... 146 - 379 */
-/* Media Queries ... (MP) 381 - 680 */
-/* About Us Page ... 684 - 848 */
-/* Media Queries ... (AU)  850 - 1063 */
-/* Ratings Page ... 1067 - 1238 */
-/* Media Queries ... (RP) 1242 - 1482 */
-/* Find Workout Page ... 1486 - 1708 */
-/* Media Queries ... (FWP) 1710 - 1803 */
-/* Favorites Page ... 1805 - 1941 */
-/* Media Queries ... (FP) 1943 - 2011 */
+/* Marketing Page ... 146 - 458 */
+/* Media Queries ... (MP) 460 - 810 */
+/* About Us Page ... 814 - 978 */
+/* Media Queries ... (AU)  980 - 1193 */
+/* Ratings Page ... 1197 - 1368 */
+/* Media Queries ... (RP) 1372 - 1612 */
+/* Find Workout Page ... 1616 - 1838 */
+/* Media Queries ... (FWP) 1840 - 1933 */
+/* Favorites Page ... 1937 - 2071 */
+/* Media Queries ... (FP) 2073 - 2139 */
 
 /* Colors Used ... #1E222E (background, font) ... #E4756E (background) ... #E34647 (font) */
 
@@ -1428,6 +1428,10 @@ img {
 /* 800 =========================================================================================================================================================== */
 
 @media (max-width: 800px) {
+   #nav-rate {
+      margin-top: -3%;
+   }
+
    #rate {
       font-size: 2.25rem;
    }
@@ -1850,6 +1854,10 @@ img {
 /* 800 =========================================================================================================================================================== */
 
 @media (max-width: 800px) {
+   #nav-workout {
+      margin-top: -3%;
+   }
+
    #zip-entry {
       font-size: 1.5rem;
    }
@@ -2094,9 +2102,14 @@ img {
 /* 800 ====================================================================================================================================================================  */
 
 @media (max-width: 800px) {
+   #nav-faves {
+      margin-top: -3%;
+   }
+
    #faves-page {
       height: 125vh;
    }
+
    .instr-container {
       width: 90%;
    }
